@@ -1,5 +1,5 @@
 import express from 'express';
-import getAIRecommendations from '../controllers/aiController';
+import { getAIRecommendations } from '../controllers/aiController';
 
 const router = express.Router();
 
